@@ -1,0 +1,36 @@
+main {
+  text-align: center;
+  padding-bottom: 20px;
+}
+body {
+  margin: 0;
+  padding: 16px;
+  background: #ffd100;
+  font-family: "Patrick Hand", cursive;
+}
+
+.logo {
+  width: 100%;
+  max-width: 600px;
+}
+
+.sep {
+  margin: 0 40px
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.columns li {
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+a {
+  color: black;
+}
